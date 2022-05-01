@@ -5,7 +5,7 @@ var pagina = 0;
 
 $(document).ready(function () {
   var dati;
-  var index = "http://localhost:8080/employees";
+  var index = "http://localhost:8080/pages/methodsBackend.php";
 
   $("body").ready(function () {
     getDati(index);
